@@ -1,4 +1,4 @@
-Name:
+Name: Zahir Bin Zulkifly
 
 Q1:
 Upgrade your Kubeadm from the current version to the 1.30.4 for all nodes
@@ -23,16 +23,16 @@ Create a pod of jenkins with the image jenkins in the namespace of web-frontend
 
 Q7:
 
-Create a configuration file to create a pod of redis with redis image and 6 replicas with label app_env_stage=dev. The file should be placed under /opt/cka
+Create a configuration file to create a pod of redis with redis image and 6 replicas with label app_env_stage=dev. The file should be placed 
+under /opt/cka
+
 
 Q8:
 Used etcd to create a backup. Remove all or one of the previous deployments and restore the backup
 
 
-
 Q9:
 Create a manifest file to launch a myservice pod with an image of nginx on the worker node automatically. Any manifest files should be placed in /etc/kubernetes/manifests
-
 
 
 Q10:
