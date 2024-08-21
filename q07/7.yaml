@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: redis
+    app_env_stage: dev
+  name: redis
+spec:
+  replicas: 6
+  selector:
+    matchLabels:
+      app: redis
+      app_env_stage: dev
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: redis
+        app_env_stage: dev
+    spec:
+      containers:
+      - image: redis:latest
+        name: redis
+        resources: {}
