@@ -59,10 +59,12 @@ Q15:
 The cluster admin asked you to find out the following information about etcd running on controlplane:
 
 Server private key location
+/etc/kubernetes/pki/etcd/ca.key
 
 Server certificate expiration date
+etcd-ca Jul 31, 2034 07:24 UTC 9y no
 
-Is client certificate authentication enabled
+Is client certificate authentication enabled - yes - --peer-client-cert-auth=true - --peer-key-file=/etc/kubernetes/pki/etcd/peer.key - --peer-trusted-ca-file=/etc/kubernetes/pki/etcd/ca.crt
 
 Q16: Done
 Create a deployment and a service name apache with the image of httpd with a namespace of apache. The deployment must be visible from outside of the cluster with a port 80.
