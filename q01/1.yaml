@@ -4,3 +4,5 @@ sudo apt-mark hold kubeadm
 kubeadm version
 sudo kubeadm upgrade plan
 sudo kubeadm upgrade apply v1.30.4
+
+https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-upgrade/
