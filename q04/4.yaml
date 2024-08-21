@@ -1,0 +1,13 @@
+openssl genrsa -out kamal.key 2048
+
+openssl req -new -key kamal.key -out kamal.csr -subj "/CN=kamal/O=dev/O=example.org"
+
+openssl x509 -req -CA /etc/kubernetes/pki/ca.crt -CAkey /etc/kubernetes/pki/ca.key -CAcreateserial -days 730 -in kamal.csr -out kamal.crt 
+
+kubectl config -set-credentials kamal --client-certificate=kamal.crt --client-key=kamal.key
+
+kubectl config set-credentials kamal --client-certificate=kamal.crt --client-key=kamal.key
+
+kubectl config set-context kamal-kubernetes --cluster=kubernetes --user=kamal --namespace=default
+
+kubectl config get-contexts  
