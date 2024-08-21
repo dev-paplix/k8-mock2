@@ -1,0 +1,15 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: q03-pod
+spec:
+  template:
+    # This is the pod template
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:latest
+      - name: redis
+        image: redis:latest
+      restartPolicy: OnFailure
+    # The pod template ends here
