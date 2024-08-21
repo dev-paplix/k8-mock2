@@ -1,0 +1,2 @@
+cp 7.yaml /opt/cka
+kubectl apply -f /opt/cka/7.yaml
