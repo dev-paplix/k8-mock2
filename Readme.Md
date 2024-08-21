@@ -1,4 +1,4 @@
-Name:
+Name: Firdaus Jamaludin
 
 Q1:
 Upgrade your Kubeadm from the current version to the 1.30.4 for all nodes
@@ -53,7 +53,7 @@ Create and phpmyadmin deployment and service use phpmyadmin:latest image which g
 Q12:
 Deploy a pod named nginx using the nginx image in the qq3 namespace with a liveness and readiness probe for port 80.
 
-Pod: nginx Namespace: qq3Image: nginxLiveness Probe: port: 80 Readiness Probe: port: 80
+Pod: nginx Namespace: qq3 Image: nginxLiveness Probe: port: 80 Readiness Probe: port: 80
 
 Q13:
 Create a NetworkPolicy which denies all ingress traffic
