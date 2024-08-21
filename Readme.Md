@@ -1,4 +1,4 @@
-Name:
+Name: Muhammad Mikhail Bin Rizal
 
 Q1:
 Upgrade your Kubeadm from the current version to the 1.30.4 for all nodes
