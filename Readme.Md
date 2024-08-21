@@ -1,4 +1,4 @@
-Name:
+Name: Muhammed Hazim Abhar bin Mohamed Azahar
 
 Q1:
 Upgrade your Kubeadm from the current version to the 1.30.4 for all nodes
@@ -27,7 +27,6 @@ Create a configuration file to create a pod of redis with redis image and 6 repl
 
 Q8:
 Used etcd to create a backup. Remove all or one of the previous deployments and restore the backup
-
 
 
 Q9:
