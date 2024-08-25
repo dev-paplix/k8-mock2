@@ -1,0 +1,3 @@
+Server private key location: /etc/kubernetes/pki/ca.key
+Server certificate expiration date: /etc/kubernetes/pki/ca.crt
+Is client certificate authentication enabled
